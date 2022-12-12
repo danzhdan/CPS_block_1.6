@@ -1,0 +1,45 @@
+@media screen and (max-width: 767px) {
+  .table-price__container {
+    display: none;
+  }
+}
+
+.table-price__container {
+  padding: 20px;
+  max-width: 1120px;
+  margin: auto;
+}
+
+.table-price__header {
+  background: $body-color;
+  padding: 0 16px;
+  color: $color-text-button;
+}
+
+.table-price__main {
+  padding: 0 16px;
+  background: $white;
+  border-radius: 6px;
+}
+
+.table-price__column {
+  display: grid;
+  grid-template-columns: 53% 14% 14% 19%;
+  grid-template-rows: 64px;
+  align-items: center;
+  a {
+    justify-self: end;
+  }
+}
+
+.table-price__order-link {
+  background: url("/img/svg/Rectangle.svg") no-repeat;
+  width: 120px;
+  height: 33px;
+}
+
+.table-price__border {
+  position: $position-relative;
+  border-bottom: 1px solid $divider_color;
+  width: 100%;
+}

@@ -1,0 +1,48 @@
+.swiper-slide_prices.swiper-slide {
+  width: 260px;
+  height: 170px;
+}
+
+.swiper-slide__wrapper-prices {
+  position: $position-relative;
+  height: 100%;
+}
+
+.swiper-slide__link-prices {
+  color: $color-text;
+  text-decoration: none;
+}
+
+.swiper-slide__link-prices p {
+  font-size: 14px;
+  font-family: $lakes-medium;
+  margin: 0;
+}
+
+.swiper-slide__link-prices p:nth-child(odd) {
+  margin: 0px 0px 2px 0px;
+  color: #7e7e82;
+}
+
+.swiper-slide__link-prices p:nth-child(even) {
+  margin: 0px 0px 20px 0px;
+}
+
+.swipper-slide__order-link-prices {
+  position: $position-absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 120px;
+  height: 35px;
+  background: url("/img/svg/Rectangle.svg") no-repeat;
+}
+
+@media screen and (min-width: 767px) {
+  .swiper-container_prices {
+    display: none;
+  }
+}
